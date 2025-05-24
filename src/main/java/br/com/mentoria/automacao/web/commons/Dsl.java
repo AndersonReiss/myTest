@@ -3,6 +3,10 @@ package br.com.mentoria.automacao.web.commons;
 import br.com.mentoria.automacao.web.config.BaseTest;
 import org.openqa.selenium.By;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+
 public class Dsl extends BaseTest {
 
     /**
@@ -23,6 +27,7 @@ public class Dsl extends BaseTest {
         driver.findElement(By.xpath(xpath)).sendKeys(text);
 
 }
+
 }
 
 
