@@ -56,7 +56,7 @@ super.acessSite("https://demo.automationtesting.in/Register.html");
         WebElement upload = driver.findElement(By.id("imagesrc"));
         //upload.sendKeys("C:\\Users\\ander\\Desktop\\Escudo-do-palmeiras.jpg");
 
-
+// testes 2
 
 
 
